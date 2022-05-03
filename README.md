@@ -11,5 +11,5 @@ Repositório criado para o desafio de Projeto.
 
 ## link Úteis
 
-[Eclipse IDE](https://www.eclipse.org/ide/)
-[Postgresql](https://www.postgresql.org/)
+- [Eclipse IDE](https://www.eclipse.org/ide/)
+- [Postgresql](https://www.postgresql.org/)
