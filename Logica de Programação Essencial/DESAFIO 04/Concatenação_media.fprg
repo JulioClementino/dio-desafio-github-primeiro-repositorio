@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="J&#218;LIO CLEMENTINO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-21 08:21:25 "/>
+        <attribute name="created" value="SsOaTElPIENMRU1FTlRJTk87TEFQVE9QLUJGSU9IMkdHOzIwMjItMDQtMjE7IjA3OjU4OjIwICI7MzU1Mw=="/>
+        <attribute name="edited" value="SsOaTElPIENMRU1FTlRJTk87TEFQVE9QLUJGSU9IMkdHOzIwMjItMDQtMjE7IjA4OjIxOjI1ICI7MTszNjU3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;insira seu nome aluno(a): &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Digte sua 1&#186; nota: &quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Digite 2&#186; nota: &quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Digite 3&#186; nota: &quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;Digite 4&#186; nota: &quot;" newline="True"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1 + nota2 + nota3 + nota4)/4"/>
+            <if expression="media &gt;= 7">
+                <then>
+                    <output expression="&quot;APROVADO!!! Parab&#233;ns &quot; &amp; nome &amp; &quot; sua m&#233;dia foi: &quot; &amp; media" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;REPROVADO!!! Infelzimente &quot; &amp; nome &amp; &quot; sua m&#233;dia foi: &quot; &amp; media" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

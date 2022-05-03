@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="J&#218;LIO CLEMENTINO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-21 09:30:55 "/>
+        <attribute name="created" value="SsOaTElPIENMRU1FTlRJTk87TEFQVE9QLUJGSU9IMkdHOzIwMjItMDQtMjE7IjA5OjIwOjM4ICI7MzU1Mw=="/>
+        <attribute name="edited" value="SsOaTElPIENMRU1FTlRJTk87TEFQVE9QLUJGSU9IMkdHOzIwMjItMDQtMjE7IjA5OjMwOjU1ICI7MTszNjYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="cartao" type="Boolean" array="False" size=""/>
+            <declare name="numero" type="String" array="False" size=""/>
+            <input variable="cliente"/>
+            <input variable="cartao"/>
+            <if expression="cartao">
+                <then>
+                    <input variable="numero"/>
+                    <output expression="&quot;Compra realizada com sucesso!, Obrigado volte sempre ;) &quot;" newline="False"/>
+                    <output expression="cliente" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;infelizmente a loja somente aceita compras via cart&#227;o!&quot;" newline="True"/>
+                    <output expression="&quot;Desculpe!!! &quot;" newline="False"/>
+                    <output expression="cliente" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

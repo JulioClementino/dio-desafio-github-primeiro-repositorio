@@ -1,0 +1,33 @@
+*F* ---> Filhote
+*P* ---> Pai
+*A* ---> Azul
+*V* ---> Verde
+*VR* ---> Vermelho
+
+*FA* ---> FILHO AZUL | *FV* ---> FILHO VERDE | *FVR* ---> FILHO VERMELHO
+*PA* --->   PAI AZUL | *PV* ---> PAI   VERDE | *PVR* ---> PAI   VERMELHO
+
+INICIO DO JOGO
+
+
+FA entra no iceberg
+PA entra no iceberg
+Atravessa
+
+FA continua no iceberg
+PA sai do iceberg
+Atravessa
+
+FA continua no iceberg
+FV entra no iceberg
+Atravessa
+
+FA sai do iceberg
+FV continua no iceberg
+Atravessa
+
+FV continua no iceberg
+PV entra no iceberg
+Atravessa
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="J&#218;LIO CLEMENTINO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-20 11:39:20 "/>
+        <attribute name="created" value="SsOaTElPIENMRU1FTlRJTk87TEFQVE9QLUJGSU9IMkdHOzIwMjItMDQtMjA7IjExOjE2OjEyICI7MzU0Mg=="/>
+        <attribute name="edited" value="SsOaTElPIENMRU1FTlRJTk87TEFQVE9QLUJGSU9IMkdHOzIwMjItMDQtMjA7IjExOjM5OjIwICI7MTszNjU0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media, somanotas" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <assign variable="somanotas" expression="nota1+nota2+nota3+nota4"/>
+            <output expression="&quot;m&#233;dia: &quot;" newline="False"/>
+            <output expression="media" newline="True"/>
+            <output expression="&quot;soma das notas: &quot;" newline="False"/>
+            <output expression="somanotas" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>
